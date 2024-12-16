@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(60, 48, 33);
+}
+
+
+img{
+    position: absolute;
+    background: none;
+}
