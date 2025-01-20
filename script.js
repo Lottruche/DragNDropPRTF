@@ -15,3 +15,7 @@ for (var i = 0; i < draggableElems.length; i++) {
     });
     draggies.push(draggie);
 }
+
+let draggie = new Draggabilly( '.draggableLampe', {
+    handle: '.handleLampe',
+});
