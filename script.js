@@ -19,3 +19,11 @@ for (var i = 0; i < draggableElems.length; i++) {
 let draggie = new Draggabilly( '.draggableLampe', {
     handle: '.handleLampe',
 });
+
+
+/* ----TEST---- */
+
+
+let draggie = new Draggabilly( '.bglight', {
+    handle: '.bglampe',
+});

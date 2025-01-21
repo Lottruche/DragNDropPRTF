@@ -5,12 +5,12 @@
     overflow: hidden;
 }
 
-.doc1{
-top: 20em;
-left: 70em;
+.doc1 {
+    top: 20em;
+    left: 70em;
 }
 
-.doc2{
+.doc2 {
     top: 15em;
     left: 50em;
 }
@@ -20,12 +20,12 @@ img {
     background: none;
 }
 
-.lampe{
+.lampe {
     top: 4em;
-    left:-7em;
+    left: -7em;
 }
 
-.lampeBox{
+.lampeBox {
     width: 57.5em;
     height: 70em;
     margin-left: -20em;
@@ -33,10 +33,27 @@ img {
 }
 
 .light {
-    mix-blend-mode:plus-lighter;
+    mix-blend-mode: plus-lighter;
     position: absolute;
     top: -20em;
     left: -5em;
     width: 120em;
     pointer-events: none;
+}
+
+
+/* --- TEST --- */
+
+.bglight {
+    background-repeat: no-repeat;
+    width: 150em;
+    height: 150em;
+    background-image: url(./assets/Light2.svg);
+}
+
+.bglampe {
+    background-repeat: no-repeat;
+    width: 100em;
+    height: 100em;
+    background-image: url(./assets/Lampe.svg);
 }
