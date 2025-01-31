@@ -16,14 +16,23 @@ for (var i = 0; i < draggableElems.length; i++) {
     draggies.push(draggie);
 }
 
-let draggie = new Draggabilly( '.draggableLampe', {
-    handle: '.handleLampe',
-});
+var draggableElems = document.querySelectorAll('.draggable');
+for (var i = 0; i < draggableElems.length; i++) {
+    var draggableElem = draggableElems[i];
+    var draggie = new Draggabilly(draggableElem, {});
+    draggies.push(draggie);
 
+    draggie.on('dragStart', function () {
+        console.log('dragStart');
+        let element = this.element;
+        element.classList.add('drag-Start');
+        element.classList.remove('drag-End');
+    });
 
-/* ----TEST---- */
-
-
-let draggie = new Draggabilly( '.bglight', {
-    handle: '.bglampe',
-});
+    draggie.on('dragEnd', function () {
+        console.log('dragEnd');
+        let element = this.element;
+        element.classList.remove('drag-Start');
+        element.classList.add('drag-End');
+    });
+}

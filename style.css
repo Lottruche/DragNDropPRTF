@@ -5,14 +5,101 @@
     overflow: hidden;
 }
 
+/* DOC 1 */
+
 .doc1 {
+    width: 25%;
+    transform: rotate(10deg);
     top: 20em;
     left: 70em;
+    cursor: grab;
+    transition: 0.15s;    
 }
 
+.doc1.drag-Start {
+    width: 27%;
+    top: 20em;
+    left: 70em;
+    cursor: grabbing;
+    transition: 0.15s;
+}
+
+.doc1.drag-End {
+    width: 25%;
+    transform: rotate(10deg);
+    top: 20em;
+    left: 70em;
+    cursor: grab;
+    transition: 0.15s;   
+}
+
+/* FIN DOC 1 */
+
+/* DOC 2 */
+
 .doc2 {
+    width: 25%;
+    transform: rotate(-5deg);
     top: 15em;
     left: 50em;
+    cursor: grab;
+    transition: 0.15s;   
+}
+
+.doc2.drag-Start {
+    width: 27%;
+    top: 15em;
+    left: 50em;
+    cursor: grabbing;
+    transition: 0.15s;   
+}
+
+.doc2.drag-End {
+    width: 25%;
+    transform: rotate(-5deg);
+    top: 15em;
+    left: 50em;
+    cursor: grab;
+    transition: 0.15s;
+}
+
+/* FIN DOC 2 */
+
+/* PHOTO */
+
+.photo{
+    width: 10%;
+    transform: rotate(5deg);
+    top: 40em;
+    left: 105em;
+    cursor: grab;
+    transition: 0.15s;
+}
+
+
+.photo.drag-Star{
+    width: 15%;
+    transform: rotate(5deg);
+    top: 40em;
+    left: 105em;
+    cursor: grabbing;
+    transition: 0.15s;
+}
+
+.photo.drag-End{
+    width: 10%;
+    transform: rotate(5deg);
+    top: 40em;
+    left: 105em;
+    cursor: grab;
+    transition: 0.15s;
+}
+
+.photoAbout{
+    width: 10%;
+    transform: rotate(5deg);
+    top: 40em;
+    left: 80em;
 }
 
 img {
@@ -41,19 +128,14 @@ img {
     pointer-events: none;
 }
 
-
-/* --- TEST --- */
-
-.bglight {
-    background-repeat: no-repeat;
-    width: 150em;
-    height: 150em;
-    background-image: url(./assets/Light2.svg);
+.cup{width: 16%;
+    top: 4em;
+    left: 100em;
 }
 
-.bglampe {
-    background-repeat: no-repeat;
-    width: 100em;
-    height: 100em;
-    background-image: url(./assets/Lampe.svg);
+.paper{
+    transform: rotate(-6deg);
+    width: 25%;
+    top: 10em;
+    left: 50em;
 }

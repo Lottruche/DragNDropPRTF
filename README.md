@@ -14,6 +14,14 @@ Pour réaliser ce projet, j'utilise pour le moment un code très simple basé su
 
 <img src="./assets/Folder%202.svg" alt="image" style="width:38%;"/>
 
+**- Modifications**
+
+*dossier droit pour éviter le grab dans les zones de transparence*
+
+<img src="./assets/Dossier%20photoshop.svg" alt="image" style="width:32%;"/>
+
+<img src="./assets/Dossier%20illustrator.svg" alt="image" style="width:32%;"/>
+
 ### **• Lampe**
 *Possible de la déplacer sur une zone limitée pour changer la lumière de positions*
 
@@ -23,6 +31,19 @@ Pour réaliser ce projet, j'utilise pour le moment un code très simple basé su
 
 <img src="./assets/Light2.svg" alt="image" style="width:50%;"/>
 
+**- Ajout**
+
+*La tasse est un bouton de retour en arrière tout simplement*
+
+<img src="./assets/Tasse.svg" alt="image" style="width:35%;"/>
+
+*Bouton permettant d'accèder à la page About*
+
+<img src="./assets/Pic.svg" alt="image" style="width:25%;"/>
+
+*Support visuelle pour mettre un texte de presentation dans la page About*
+
+<img src="./assets/feuille.png" alt="image" style="width:32%;"/>
 
 >*Les différents éléments graphique présent dans ce projet sont des fichiers svg fait directement sur [Figma](https://www.figma.com/design/kIzGWnAUqMxBjMXi8DfAgu/Creative-coding?node-id=0-1&t=EicvjkqCWVxnQfLW-1) (pour l'instrant) exclusivement de figm*
 
