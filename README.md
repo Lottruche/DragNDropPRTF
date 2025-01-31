@@ -51,3 +51,6 @@ Pour réaliser ce projet, j'utilise pour le moment un code très simple basé su
 
 - L'effet "Grab" s'applique aussi aux zones transparentes des SVG
   *(solution possible : appliquer un "Handle" sur les parties visible)*
+
+- Adapter le placement des éléments par rapport au format de l'écran
+  
